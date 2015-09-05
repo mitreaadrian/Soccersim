@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Soccersim_test", "Soccersim_test\Soccersim_test.vcxproj", "{86FDA0C6-FF08-4E57-A092-336461A7E41B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE156767-D290-4DD8-A9DD-987F42ED7E41} = {BE156767-D290-4DD8-A9DD-987F42ED7E41}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Soccersim_lib", "Soccersim_lib\Soccersim_lib.vcxproj", "{BE156767-D290-4DD8-A9DD-987F42ED7E41}"
 EndProject
